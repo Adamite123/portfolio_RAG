@@ -96,6 +96,29 @@ python -c "import secrets; print(secrets.token_hex(32))"
 
 ---
 
+### Error: "Cannot install ... conflicting dependencies"
+**Status**: FIXED ✅
+
+**Error Message**:
+```
+ERROR: Cannot install langchain-core==0.3.56
+The conflict is caused by:
+  langchain-chroma 0.2.6 depends on langchain-core>=0.3.76
+```
+
+**Cause**: Exact version pinning (==) caused dependency conflicts
+
+**Solution**: Changed to minimum version requirements (>=) to allow pip to resolve compatible versions
+
+**Changes**:
+- `langchain-core==0.3.56` → `langchain-core>=0.3.0`
+- Removed unused packages: `langchain-cli`, `langchain-redis`
+- Let pip auto-resolve compatible versions
+
+**Commit**: `31194b8`
+
+---
+
 ### Error: "Application failed to start"
 **Check**:
 1. View logs in Railway dashboard
