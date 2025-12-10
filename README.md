@@ -268,39 +268,44 @@ llm = ChatOpenAI(model="gpt-4", temperature=0.7, api_key=api_key)  # Ganti ke GP
 
 ## Deployment
 
-### Option 1: Railway
-```bash
-# Install Railway CLI
-npm install -g @railway/cli
+### ⚠️ IMPORTANT: Hostinger Shared Hosting NOT Supported
+Hostinger shared hosting **does NOT support Python Flask applications**. Use Railway, Render, or PythonAnywhere instead.
 
-# Login & deploy
-railway login
-railway init
-railway up
-```
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for detailed instructions.
 
-### Option 2: Render
-1. Create `render.yaml`:
-```yaml
-services:
-  - type: web
-    name: portfolio-rag
-    env: python
-    buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn index:app
-```
-2. Connect GitHub repo di Render dashboard
+### Quick Deploy to Railway (RECOMMENDED)
 
-### Option 3: Heroku
-```bash
-# Create Procfile
-echo "web: gunicorn index:app" > Procfile
+**Railway** offers free tier with $5 credit/month and auto-deploy from GitHub.
 
-# Deploy
-heroku create your-app-name
-git push heroku main
-heroku config:set OPENAI_API_KEY=your_key
-```
+**Steps**:
+1. Visit https://railway.app/ and login with GitHub
+2. Click "New Project" → "Deploy from GitHub repo"
+3. Select repository: `Adamite123/portfolio_RAG`
+4. Add environment variables in Railway dashboard:
+   ```
+   OPENAI_API_KEY=sk-your-openai-api-key
+   FLASK_SECRET_KEY=your-random-secret-key-32-chars
+   ```
+5. Railway will automatically build and deploy
+6. Get your live URL: `https://portfolio-rag-production.up.railway.app`
+
+**Files included for Railway**:
+- ✅ `Procfile` - Gunicorn configuration
+- ✅ `runtime.txt` - Python 3.11
+- ✅ `railway.json` - Railway config
+- ✅ `nixpacks.toml` - Build configuration
+- ✅ `requirements.txt` - Dependencies
+
+### Alternative: Render (Free with Sleep)
+1. Visit https://render.com/
+2. New Web Service → Connect GitHub repo
+3. Configure:
+   - Build: `pip install -r requirements.txt`
+   - Start: `gunicorn index:app`
+4. Add environment variables
+
+### Alternative: PythonAnywhere (Always-On Free)
+See [DEPLOYMENT_GUIDE.md](DEPLOYMENT_GUIDE.md) for step-by-step guide.
 
 ---
 
