@@ -396,10 +396,8 @@ MIT License - Lihat file `LICENSE` untuk detail
 - 5+ years experience in web development and AI systems
 
 ### Contact
-- Email: adam.example@email.com
 - LinkedIn: [Adam Muhammad](https://linkedin.com/in/adammuhammad)
 - GitHub: [Adamite123](https://github.com/Adamite123)
-- Portfolio: [portfolio-rag.com](https://portfolio-rag.com)
 
 ---
 
