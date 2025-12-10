@@ -1,0 +1,26 @@
+[
+  {
+    "is_user": true,
+    "q": "oi",
+    "timestamp": "2025-11-30T22:08:10.099047"
+  },
+  {
+    "is_user": false,
+    "a": "Halo! Ada yang bisa saya bantu? Jangan ragu untuk bertanya tentang profil karir Adam Muhammad.",
+    "timestamp": "2025-11-30T22:08:10.099047",
+    "actions": [
+      {
+        "type": "experience_timeline",
+        "label": "Timeline Karir",
+        "icon": "📊",
+        "style": "secondary"
+      },
+      {
+        "type": "help",
+        "label": "Tanya Lainnya?",
+        "icon": "❓",
+        "style": "light"
+      }
+    ]
+  }
+]

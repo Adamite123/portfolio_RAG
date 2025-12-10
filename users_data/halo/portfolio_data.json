@@ -1,0 +1,49 @@
+[
+  "Nama: Adam Muhammad. Profesi: Full Stack Developer & AI Engineer dengan pengalaman 5+ tahun di bidang web development dan artificial intelligence. Lulusan Magister Ilmu Komputer (S2) dari ITB dengan predikat Cum Laude.",
+
+  "Skills Teknis: Python (Expert), JavaScript/TypeScript (Advanced), React.js (Advanced), Node.js (Advanced), Flask/Django (Advanced), Machine Learning (Intermediate), RAG Systems (Advanced), LangChain (Advanced), ChromaDB (Intermediate), PostgreSQL (Advanced), MongoDB (Intermediate), Docker (Intermediate), Git (Advanced).",
+
+  "Pengalaman Kerja 1: Senior Full Stack Developer di Tech Innovation Corp (2021-2024). Memimpin tim 5 developer dalam mengembangkan platform e-commerce yang melayani 100K+ pengguna aktif bulanan. Mengimplementasikan microservices architecture yang meningkatkan performa sistem 40%. Tech stack: React, Node.js, PostgreSQL, Redis, Docker, AWS.",
+
+  "Pengalaman Kerja 2: AI Engineer di DataSmart Solutions (2019-2021). Mengembangkan sistem rekomendasi berbasis machine learning yang meningkatkan conversion rate 25%. Membangun chatbot customer service menggunakan NLP dan GPT models. Tech stack: Python, TensorFlow, Flask, MongoDB, OpenAI API.",
+
+  "Proyek 1: E-Commerce Platform 'ShopSmart'. Platform marketplace modern dengan fitur real-time notification, payment gateway integration (Midtrans, Stripe), dan admin dashboard analytics. Menggunakan React.js, Node.js, PostgreSQL, Redis. Link: github.com/adammuhammad/shopsmart",
+
+  "Proyek 2: AI-Powered Customer Support System. Sistem chatbot cerdas dengan RAG (Retrieval-Augmented Generation) untuk menjawab pertanyaan customer secara otomatis dengan akurasi 90%. Menggunakan LangChain, ChromaDB, OpenAI GPT-3.5, Flask. Link: github.com/adammuhammad/ai-support",
+
+  "Proyek 3: Portfolio Website dengan RAG Chatbot. Website portfolio interaktif dengan AI assistant yang dapat menjawab pertanyaan tentang pengalaman kerja, skills, dan proyek. Menggunakan Flask, LangChain, ChromaDB, Vanilla JavaScript. Link: github.com/adammuhammad/portfolio-rag",
+
+  "Proyek 4: Task Management App 'TaskFlow'. Aplikasi manajemen tugas dengan fitur kanban board, real-time collaboration, dan AI task prioritization. Menggunakan React, TypeScript, Node.js, Socket.io, PostgreSQL. Link: github.com/adammuhammad/taskflow",
+
+  "Pendidikan SMA: SMA Negeri 8 Jakarta (2012-2015). Jurusan IPA. Nilai UN: 9.25/10.00. Prestasi: Juara 1 Olimpiade Sains Nasional bidang Informatika tingkat Provinsi DKI Jakarta 2014, Ketua OSIS periode 2014-2015.",
+
+  "Pendidikan S1: Sarjana Teknik Informatika dari Universitas Indonesia (2015-2019). IPK: 3.75/4.00. Fokus studi: Software Engineering, Artificial Intelligence, Database Systems. Skripsi: 'Implementasi Deep Learning untuk Klasifikasi Citra Medis' dengan nilai A. Aktif di organisasi kampus: Ketua Himpunan Mahasiswa Informatika (2017-2018).",
+
+  "Pendidikan S2: Magister Ilmu Komputer dari Institut Teknologi Bandung (2019-2021). IPK: 3.85/4.00. Konsentrasi: Artificial Intelligence & Machine Learning. Tesis: 'Optimization of Retrieval-Augmented Generation Systems for Enterprise Applications' dengan predikat Cum Laude. Penerima Beasiswa LPDP (Lembaga Pengelola Dana Pendidikan).",
+
+  "Sertifikasi 1: AWS Certified Solutions Architect - Associate (2022). Credential ID: AWS-SAA-12345. Validasi keahlian dalam merancang sistem terdistribusi di AWS cloud platform.",
+
+  "Sertifikasi 2: TensorFlow Developer Certificate (2021). Credential ID: TF-DEV-67890. Membuktikan kemampuan dalam membangun dan deploy model machine learning dengan TensorFlow.",
+
+  "Sertifikasi 3: Professional Scrum Master I (PSM I) (2020). Credential ID: PSM-54321. Menguasai framework Agile Scrum untuk manajemen proyek software development.",
+
+  "Achievements: Juara 1 Hackathon AI Innovation 2023 dengan proyek 'MedAI' - sistem diagnosa medis berbasis AI. Menjadi speaker di TechConf Indonesia 2022 dengan topik 'Building Production-Ready RAG Systems'. Kontributor open source aktif dengan 50+ pull requests di berbagai repository populer.",
+
+  "Bahasa: Indonesia (Native), English (Fluent - TOEFL iBT 105), Mandarin (Basic conversation).",
+
+  "Soft Skills: Leadership & Team Management, Problem Solving, Critical Thinking, Communication Skills, Agile/Scrum Methodology, Code Review & Mentoring, Technical Documentation, Project Planning.",
+
+  "Tools & Platforms: VS Code, PyCharm, Git/GitHub, Docker, Postman, Figma (basic), Jira, Notion, Slack, AWS (EC2, S3, RDS, Lambda), Vercel, Heroku.",
+
+  "Hobi & Minat: Open source contribution, Technical writing di Medium, Mengikuti perkembangan AI/ML terbaru, Gaming (strategy games), Fotografi teknologi.",
+
+  "Kontak Informasi: Email: adam.muhammad.dev@gmail.com, LinkedIn: linkedin.com/in/adammuhammad-dev, GitHub: github.com/adammuhammad, Portfolio: adammuhammad.dev, Phone: +62 812-3456-7890, Location: Jakarta, Indonesia.",
+
+  "Career Goals: Menjadi Lead AI Engineer di perusahaan teknologi global dalam 3 tahun ke depan. Fokus pada pengembangan AI systems yang scalable dan production-ready. Tertarik pada posisi yang menggabungkan technical leadership dan hands-on development.",
+
+  "Availability: Open for full-time remote/hybrid opportunities. Available for freelance projects. Preferred work: AI/ML Engineer, Senior Full Stack Developer, Tech Lead positions. Expected salary range: 25-35 juta IDR per bulan (negotiable based on role).",
+
+  "Proyek Side Hustle: Menjalankan YouTube channel 'CodeWithAdam' dengan 10K+ subscribers, membahas tutorial web development dan AI. Menyediakan jasa konsultasi teknis untuk startup yang ingin mengimplementasikan AI solutions.",
+
+  "Referensi Profesional: John Doe (CTO Tech Innovation Corp) - john.doe@techinnovation.com, Available upon request. Sarah Lee (AI Team Lead DataSmart Solutions) - sarah.lee@datasmart.com, Available upon request."
+]

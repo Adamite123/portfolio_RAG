@@ -1,0 +1,26 @@
+[
+  {
+    "is_user": true,
+    "q": "Apa saja skill Adam?",
+    "timestamp": "2025-12-01T11:25:24.059613"
+  },
+  {
+    "is_user": false,
+    "a": "Adam memiliki beberapa skills di berbagai bidang, antara lain:\n- Programming Languages: Python, JavaScript\n- Frameworks: TensorFlow, Flask\n- Tools: MongoDB, OpenAI API\n- Expertise: Machine Learning, Natural Language Processing (NLP)\n- Soft Skills: Technical Leadership, Mentorship",
+    "timestamp": "2025-12-01T11:25:24.059613",
+    "actions": [
+      {
+        "type": "skills_detail",
+        "label": "Detail Skills",
+        "icon": "🚀",
+        "style": "info"
+      },
+      {
+        "type": "help",
+        "label": "Tanya Lainnya?",
+        "icon": "❓",
+        "style": "light"
+      }
+    ]
+  }
+]
